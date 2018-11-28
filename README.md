@@ -4,11 +4,13 @@ RotationalInvarianFacedetection: An extension of OpenCV face detector for video.
 
 ## Requirements
 
-OpenCV compiled with python, numpy
+OpenCV compiled with python, numpy, dlib (for example 2)
 
 ## Running 
 
-Just clone the repo and run 'python demo.py'
+1. Face detection: Just clone the repo and run 'python main.py' for simple face detection
+
+2. Face detection and landmark detection : Run 'python main_dlib_ri.py' for face landmark as well (this one requires dlib to be installed)
 
 ## Citation
 

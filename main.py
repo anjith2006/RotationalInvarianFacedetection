@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
 	video_src = 0
 	
-	cascade_fn = "haarcascade_frontalface_alt2.xml"
+	cascade_fn = "data/haarcascade_frontalface_alt2.xml"
 	
 	cam = create_capture(video_src, fallback='synth:bg=../cpp/lena.jpg:noise=0.05')
 
